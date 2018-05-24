@@ -1,38 +1,41 @@
-AB - Informatik - 2. Semester
+﻿AB - Informatik - 2. Semester
 Software Engineering - Prof. Dr. Eck
+
+(Vollständige Sätze bilden. Punkte nummerieren. Anweisung von Eck.)
 
 Aufgabe 1 - Anforderungen
 -------------------------
 
-Funktional:
+1. Funktional:
 	- Sicherheit:
-		- Betriebsmodus "Vollautomatik"
+		1. Betriebsmodus "Vollautomatik"
 			- Sensorgesteuerte Erkennung von menschlicher Beteiligung bzw. Eingriffen, um frühzeitig abzuschalten
 				oder in den handgesteuerten Betrieb zu wechseln, um Personenschaden zu vermeiden
-		- Betriebsmodus "Halbautomatik"
+		2. Betriebsmodus "Halbautomatik"
 			- Personelle Bestätigung von kritischen Steuerungs-Befehlen notwendig 
 				(mit doppelter Abfrage? - Siehe Betriebsmodus "Handgesteuert")
-		- Betriebsmodus "Handgesteuert"
+		3. Betriebsmodus "Handgesteuert"
 			- Doppelte Abfrage von kritischen Steuerungs-Befehlen notwendig, um zu gewährleisten, 
 				dass beim Betrieb keine Zwischenfälle oder Kollisionen stattfinden können.
 				(Freies Förderband / keine Mitarbeiter am Förderband / Bagger im Betrieb voll funktionstüchtig)
 			- Personelle Authorisierung ermöglichen, um die Betriebs-Steuerung Unbefugter zu unterbinden
+		4. Der Geräterechner soll auf die Notabschaltung reagieren und sofort zum Stillstand kommen.
 	- Effizienz:
-		- Betriebsmodus "Vollautomatik"
+		5. Betriebsmodus "Vollautomatik"
 			- Frühzeitige Erkennung von Bunkern, welche das maximale Füll-Volumen erreichen.
 				Macht einen zeitlich regulierten Austausch von jenen möglich und vermeidet Stillstände
-		- Betriebsmodus "Halbautomatik"
+		6. Betriebsmodus "Halbautomatik"
 			- Akustische / Visuelle Meldungen bei Ereignissen an die verantwortliche Person zur Bestätigung und um weitere Schritte einzuleiten
 
-Nicht funktional:
-	- Gewährleistung niedriger Latenzen bei der Kommunikation zwischen den System an den verschiedenen Schlüsselstellen im Betrieb
-	- Meldung von Fehlerereignissen an alle weiteren Systeme, um Konflikte innerhalb der Kommunikation und der 
+2. Nicht funktional:
+	1. Gewährleistung niedriger Latenzen bei der Kommunikation zwischen den System an den verschiedenen Schlüsselstellen im Betrieb
+	2. Meldung von Fehlerereignissen an alle weiteren Systeme, um Konflikte innerhalb der Kommunikation und der 
 		damit verbundenen Steuerung des Betriebs zu vermeiden
 		(Wir wollen nicht, dass z.B. ein Bagger weiter Material auf das Band wirft, während es aufgrund eines Defekts nicht mehr
 		in Betrieb ist)
+	3. Der Geräterechner generiert ein Zustandsabbild, versendet diese per Telegramm an den Leitrechner 
+		und wartet auf die Empfangsbestätigung vom Leitrechner.
 	
 	
-	
-to be continued ...
 
 

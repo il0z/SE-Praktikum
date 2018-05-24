@@ -1,0 +1,10 @@
+Anforderungen an den Geräterechner des Förderbands:
+-Zustandsüberwachung	nf
+-Auf Notabschaltung reagieren    f
+-Zustandsabbild generieren	nf
+-Zustandsabbild versenden	nf 
+-Kommunikation mit dem Leitrechner	nf
+-Halb-(f), vollautomatischer(nf) und manueller Betrieb(nf)
+-rekonstruktion des Prozessabbilds nach Datenverlust     
+ durch eine Generalabfrage aller Messstellen und Signalquellen	nf
+

@@ -28,12 +28,12 @@ Aufgabe 1 - Anforderungen
 			- Akustische / Visuelle Meldungen bei Ereignissen an die verantwortliche Person zur Bestätigung und um weitere Schritte einzuleiten
 
 2. Nicht funktional:
-	1. Gewährleistung niedriger Latenzen bei der Kommunikation zwischen den System an den verschiedenen Schlüsselstellen im Betrieb
+	[1. Gewährleistung niedriger Latenzen bei der Kommunikation zwischen den System an den verschiedenen Schlüsselstellen im Betrieb
 	2. Meldung von Fehlerereignissen an alle weiteren Systeme, um Konflikte innerhalb der Kommunikation und der 
 		damit verbundenen Steuerung des Betriebs zu vermeiden
 		(Wir wollen nicht, dass z.B. ein Bagger weiter Material auf das Band wirft, während es aufgrund eines Defekts nicht mehr
-		in Betrieb ist)
-	3. Der Geräterechner generiert ein Zustandsabbild, versendet diese per Telegramm an den Leitrechner 
+		in Betrieb ist)] -- nicht Teil der Aufgabe
+	1. Der Geräterechner generiert ein Zustandsabbild, versendet diese per Telegramm an den Leitrechner 
 		und wartet auf die Empfangsbestätigung vom Leitrechner.
 	
 	

@@ -10,7 +10,7 @@ Aufgabe 1 - Anforderungen
 	1.1. Sicherheit:
 		1.1.1. Betriebsmodus "Vollautomatik"
 			- Sensorgesteuerte Erkennung von menschlicher Beteiligung bzw. Eingriffen, um frühzeitig abzuschalten
-				oder in den handgesteuerten Betrieb zu wechseln, um Personenschaden zu vermeiden
+				oder in den handgesteuerten Betrieb zu wechseln, um Personenschaden zu vermeiden.
 		1.1.2. Betriebsmodus "Halbautomatik"
 			- Personelle Bestätigung von kritischen Steuerungs-Befehlen notwendig 
 				(mit doppelter Abfrage? - Siehe Betriebsmodus "Handgesteuert")
@@ -21,12 +21,14 @@ Aufgabe 1 - Anforderungen
 			- Personelle Authorisierung ermöglichen, um die Betriebs-Steuerung Unbefugter zu unterbinden
 		1.1.4. Der Geräterechner soll auf die Notabschaltung reagieren und sofort zum Stillstand kommen.
 		1.1.5. Sollte es zu einem Stromausfall kommen, gewährleistet eine Batterie/Notstromaggregat die Stromversorgung für die  	                         nächsten 6 Stunden, um einen Datenverlust zu verhindern.
+		
 	2. Effizienz:
 		1.2.1. Betriebsmodus "Vollautomatik"
 			- Frühzeitige Erkennung von Bunkern, welche das maximale Füll-Volumen erreichen.
 				Macht einen zeitlich regulierten Austausch von jenen möglich und vermeidet Stillstände
 		1.2.2. Betriebsmodus "Halbautomatik"
 			- Akustische / Visuelle Meldungen bei Ereignissen an die verantwortliche Person zur Bestätigung und um weitere 					Schritte einzuleiten
+			
 	3. Bedienbarkeit:
 		1.3.1. 
 

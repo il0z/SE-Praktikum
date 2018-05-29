@@ -72,8 +72,9 @@ lokale Prozessabbild rekonstruiert werden.
 
 Versuchen Sie, in der Beschreibung funktionale und nichtfunktionale
 **Anforderungen** zu erkennen und als Anforderungen zu formulieren. Entdecken
-Sie Möglichkeiten zur **Gliederung**? Können Sie Anwendungs- und
-Systemanforderungen unterscheiden?
+Sie Möglichkeiten zur **Gliederung**? Können Sie Anwendungs- („soll passieren“,
+laut dem Kunden --Claudio) und Systemanforderungen („wird passieren“, laut uns
+--Claudio) unterscheiden?
 
 #### Aufgabe 2
 

@@ -9,8 +9,8 @@
 
 1. Funktional
 
-   1. Im Betriebsmodus "Vollautomatik" steuert der Geräterechner das Förderband
-    selbstständig.
+   1. Im Betriebsmodus „Vollautomatik“ steuert der Geräterechner das Förderband
+      selbstständig.
 
    2. Im Halbautomatischen Modus läuft die Maschine lange Zeit ohne Eingriff,
       ruft aber in bestimmten Situationen die Entscheidung eines Bedieners ab,
@@ -33,7 +33,7 @@
    7. Der Geräterechner übernimmt die Ablaufsteuerung, Zustandsüberwachung und
       die Regelung von Vorgängen des Förderbandes.
 
-   8. Der Geräterechner das Zustandsabbild des Förderbandes verwalten und
+   8. Der Geräterechner soll das Zustandsabbild des Förderbandes verwalten und
       aktuell halten.
 
 2. Nicht funktional

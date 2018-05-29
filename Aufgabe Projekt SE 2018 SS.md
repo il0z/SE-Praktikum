@@ -66,7 +66,7 @@ Stromversorgung zu einem vollständigen Datenverlust im Geräterechner, muss ein
 Generalabfrage aller Messstellen und Signalquellen erfolgen und daraus das
 lokale Prozessabbild rekonstruiert werden.
 
-## Aufgabe 1
+#### Aufgabe 1
 
 > (Zu einem Geräterechner --Zoltan)
 
@@ -75,14 +75,56 @@ Versuchen Sie, in der Beschreibung funktionale und nichtfunktionale
 Sie Möglichkeiten zur **Gliederung**? Können Sie Anwendungs- und
 Systemanforderungen unterscheiden?
 
-## Aufgabe 2
+#### Aufgabe 2
 
-Entwickeln sie das **Kontextdiagramm** nach SART und eine Verfeinerungsstufe.
+Entwickeln sie das **Kontextdiagramm** nach SA/RT und eine Verfeinerungsstufe.
 
-## Aufgabe 3
+#### Aufgabe 3
 
 Entwickeln Sie ein **Use-Case-Diagramm** und verfeinern Sie es um
 unterstützende UCes ("uses") und Spezialfälle ("extends"). Greifen Sie einen UC
 heraus und versuchen Sie eine Beschreibung in **Formularform**.
 
-(wird fortgesetzt)
+### Der Leitrechner
+
+Die Geräterechner sind über ein Kommunikationsnetzwerk (hier nicht genauer
+spezifiziert) mit dem Leitrechner verbunden. Der Leitrechner nimmt die zentrale
+Rolle bei der Datensammlung aus dem Prozess ein. Alle versendeten
+Datentelegramme werden an ihn gesandt. In den Geräterechnern werden die
+Ereignis- bzw. Sendepuffer erst überschrieben, wenn die entsprechenden Empfänge
+durch den Leitrechner bestätigt werden (Quittung, Acknowledge)
+
+Seine Aufgabe besteht darin, die Daten aus den einzelnen Geräterechnern zu
+sammeln und in eine zentrale Datenhaltung zu übernehmen. In diesem Datenpool
+werden die Ereignisse in zeitlicher Reihenfolge quasi als Logbucheinträge
+abgelegt. Dazu werden die Zeitstempel der Ereignisse als Ordnungskriterium
+benutzt (aus den Systemzeiten der eingehenden Telegramme werden Datum/Uhrzeiten
+gebildet). Außerdem werden die Ereignisse benutzt um im Leitrechner die
+Prozessabbilder aller externen Geräte zu pflegen. D.h. die eingehenden
+Ereignisse werden nach Maschinen gefiltert und weiter verarbeitet.
+
+Der Leitrechner versorgt aus der zentralen Datenhaltung unterschiedliche
+Displays mit aktueller Information:
+
+- Alarmanzeige, schwerwiegende Ereignisse, die sofortiges Handel erfordern,
+  z.B. Abschaltungen, sofern diese nicht schon automatisch eintreten;
+- laufende Ereignisse, selektiert nach Maschinen oder Linien, oder
+  Gesamtereignisstrom;
+- Schichtprotokolle über die Produktion/Förderung insgesamt oder nach Linien
+  selektiert;
+- vorausschauende Analyse für prophylaktische Wartungseinsätze an Maschinen
+  durch statistische Verfahren, die auf den Ereignissen basieren
+
+#### Aufgaben 4 – 7
+
+Erweitern Sie Ihre bisherigen Lösungen um die Anforderungen aus der erweiterten
+Beschreibung:
+
+4) machen Sie einen Vorschlag für die **Strukturen der Datenhaltung**
+5) ergänzen sie die Use-Cases
+6) entwickeln Sie für eine Auswahl der Use-Cases **Szenarios**. (Anzahl je nach
+   Gruppengröße)
+7) beschreiben Sie den Ereignis-/Quittungsverkehr mit einem **Zustandsdiagramm
+   / Sequenzdiagramm** der beteiligten Kommunikationspartner (vgl.
+   Zustandsdiagramm Digitaluhr). Stellen Sie diese dazu als Objekte dar, die
+   gegenseitige Methodenaufrufe tätigen.

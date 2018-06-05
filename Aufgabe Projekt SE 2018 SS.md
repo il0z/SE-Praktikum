@@ -122,7 +122,7 @@ Erweitern Sie Ihre bisherigen Lösungen um die Anforderungen aus der erweiterten
 Beschreibung:
 
 4) machen Sie einen Vorschlag für die **Strukturen der Datenhaltung**
-5) ergänzen sie die Use-Cases
+5) ergänzen sie die Use-Cases - Leitrechner
 6) entwickeln Sie für eine Auswahl der Use-Cases **Szenarios**. (Anzahl je nach
    Gruppengröße)
 7) beschreiben Sie den Ereignis-/Quittungsverkehr mit einem **Zustandsdiagramm

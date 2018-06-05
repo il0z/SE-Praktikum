@@ -1,6 +1,6 @@
 ## Use Cases (Aufgabe 5)
 ### Sendepuffer - Hans Gruber
-### Notabschaltung - Deine Mudda!
+### Notabschaltung - 
 ### Automatischer Betrieb - 
 ### Halbautomatischer Betrieb -
 ### Manueler Betrieb - 

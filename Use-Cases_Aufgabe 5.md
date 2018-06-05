@@ -1,9 +1,9 @@
 ## Use Cases (Aufgabe 5)
-### zentrale Datenhaltung - Hans Gruber
+### zentrale Datenhaltung - 
 ### Notabschaltung - Holger
-### Automatischer Betrieb - 
+### Automatischer Betrieb - Jonas
 ### Halbautomatischer Betrieb -
 ### Manueler Betrieb - 
-### Logbuch Verwaltung -
+### Logbuch Verwaltung - Claudio
 ### Ausgabe an Displays - 
 ### 

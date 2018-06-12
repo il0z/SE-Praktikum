@@ -5,5 +5,5 @@
 ### Halbautomatischer Betrieb -
 ### Manueler Betrieb - 
 ### Logbuch Verwaltung - Claudio
-### Ausgabe an Displays - 
+### Ausgabe an Displays - Adrian
 ### Prozessabilder pflegen - Zoltan

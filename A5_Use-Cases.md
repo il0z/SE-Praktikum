@@ -1,5 +1,5 @@
 ## Use Cases (Aufgabe 5)
-### zentrale Datenhaltung - 
+### Zentrale Datenhaltung - 
 ### Notabschaltung - Holger
 ### Automatischer Betrieb - Jonas
 ### Halbautomatischer Betrieb -

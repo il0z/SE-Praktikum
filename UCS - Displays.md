@@ -2,18 +2,19 @@
 
 
 Display - Alarmanzeige:
-  - Anzeige einer Fehlermeldung bei sofortigem Stop der Anlage
-  - Anzeige von Warnungen
+  - Szenario **Notaus**
+    - Anzeige einer Fehlermeldung bei sofortigem Stop der Anlage
+  - Szenario **Warnungen**
     - Bei Ereignissen an einzelnen Geräterechnern
     - Auslastung eines Teils der Anlage in kritischem Zustand
     - Ein Teil der Anlage steht still, so dass weiterführende Geräte nicht fortfahren können
 			
 Display - Laufende Ereignisse:
-  - Bagger
+  - Szenario **Bagger-Ereignis**
     - Positionsanzeige
-  - Förderbänder
+  - Szenario **Förderband-Ereignis**
     - Anzeige der aktuellen Auslastung
-  - Bunker
+  - Szenario **Bunker-Ereignis**
     - Anzeige des Füllstands
 			
 Display - Schichtprotokolle:

@@ -1,24 +1,24 @@
 ###### - Use Case Szenario - Zoltan Puskely - 
 ##### Das Pflegen der Prozessabilder aller externen Geräte
 - Empfang der Ereignisse 
- - Telegramm Bagger
- - Telegramm Förderbänder
- - Telegramm Bunker 
- - Telegramm Absetzer
- - Telegramm Sonstige
+  - Telegramm Bagger
+  - Telegramm Förderbänder
+  - Telegramm Bunker 
+  - Telegramm Absetzer
+  - Telegramm Sonstige
 - Sortieren der Ereignisse nach Maschinen
- - Ereigniss Bagger
- - Ereigniss Förderbänder
- - Ereigniss Bunker 
- - Ereigniss Absetzer
- - Ereigniss Sonstige
+  - Ereigniss Bagger
+  - Ereigniss Förderbänder
+  - Ereigniss Bunker 
+  - Ereigniss Absetzer
+  - Ereigniss Sonstige
 - Generierung der Prozessabilder jeweiliger Maschinen
- - Prozessabild Bagger
- - Prozessabild Förderbänder
- - Prozessabild Bunker 
- - Prozessabild Absetzer
- - Prozessabild Sonstige
+  - Prozessabild Bagger
+  - Prozessabild Förderbänder
+  - Prozessabild Bunker 
+  - Prozessabild Absetzer
+  - Prozessabild Sonstige
 - Weiterverarbeitung der Prozessabilder
- - Ausgabe an Displays
- - Weitergabe an die zentrale Datenhaltung
- - Kommunikation mit Gräterechnern
+  - Ausgabe an Displays
+  - Weitergabe an die zentrale Datenhaltung
+  - Kommunikation mit Gräterechnern

@@ -1,4 +1,4 @@
-﻿# Use Case-Szenario - Automatische Steuerung
+﻿# Use Case-Szenario - Automatische Steuerung von: Jonas Tzschoppe 3206756
 
 -Beschreibung: 
 	-Die automatische Steuerung regelt den Ablauf des Förderbands im automatischen Modus bis der User den Steuerungsmodus ändert.

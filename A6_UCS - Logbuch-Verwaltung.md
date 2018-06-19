@@ -1,8 +1,12 @@
 # Use Case-Szenario - Logbuch-Verwaltung
 
+## Logbuch
+
+- Tabellarische Aufbereitung der Ereignistelegramme
 - Ausgabe auf Displays
 - Möglichkeit der Sortierung und Filterung nach beliebigen Kombinationen von:
   - Herkunft (Bagger, Förderbänder, Bunker, Absetzer, Leitrechner selbst)
+  - Linie
   - Zeit (neueste Ereignisse, Beschränkung auf einen bestimmten Zeitraum)
   - Warnungslevel (Information, Warnung, Fehler)
 - Generierung von Statistiken in grafischer Form, anhand der Sortier-/
